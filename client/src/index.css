@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Orbitron:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark font-sans text-gray-100 antialiased;
+  }
+}
+
+@layer components {
+  .page-title {
+    @apply font-display text-3xl font-bold tracking-wide text-white md:text-4xl;
+  }
+
+  .page-placeholder {
+    @apply rounded-xl border border-dark-border bg-dark-card p-8 text-center text-gray-400;
+  }
+}
